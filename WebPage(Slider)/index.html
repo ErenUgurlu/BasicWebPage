@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <img src="./img/Singleton.png" class="logo" alt="">
+        <div id="selector">
+            <div id="leftPlaceholder"></div>
+            <div id="left" onclick="leftTestimonials()">
+                <p id="testimonials">
+                    TESTIMONIALS
+                </p>
+            </div>
+            <div id="rightPlaceholder"></div>
+            <div id="right" onclick="rightFeedbacks()">
+                <p id="feedbacks">
+                    FEEDBACKS
+                </p>
+            </div>
+        </div>
+        <div id="slider">
+            <img src="./img/Left.png" id="leftArrow" onclick="slideLeft()" alt="">
+            <img src="./img/Right.png" id="rightArrow" onclick="slideRight()" alt="">
+            <div class="text">
+                <p id="sliderData">
+                    “Your affordability calculator saved me some serious time to focus on what I can actually buy.”
+                </p>
+            </div>
+        </div>
+        <div id="input">
+            <p id="feedBack">Your FeedBack</p>
+            <input type="text" id="inputText">
+        </div>
+
+        <div id="testimonial1">
+            <div class="rectangleW"></div>
+            <div></div>
+            <img src="./img/Userpic1.png" alt="" class="userPic">
+            <div>
+                <a href="https://twitter.com"><img src="./img/TwitterB.png" alt="" class="firstImg"></a>
+                <a href="https://google.com"><img src="./img/GoogleB.png" alt="" class="secondImg"></a>
+                <a href="https://dribbble.com/"><img src="./img/DribbbleB.png" alt="" class="thirdImg"></a>
+            </div>
+            <p id="appleText">APPLE</p>
+            <p id="william">William Ayrton</p>
+        </div>
+        <div id="testimonial2">
+            <div class="rectangleB"></div>
+            <div></div>
+            <img src="./img/Userpic2.png" alt="" class="userPic">
+            <div>
+                <a href="https://twitter.com"><img src="./img/TwitterW.png" alt="" class="firstImg"></a>
+                <a href="https://facebook.com"><img src="./img/FacebookW.png" alt="" class="secondImg"></a>
+                <a href="https://dribbble.com/"><img src="./img/DribbbleW.png" alt="" class="thirdImg"></a>
+                
+            </div>
+            <p id="googleText">GOOGLE</p>
+            <p id="jake">Jake Blare</p>
+        </div>
+        <div id="testimonial3">
+            <div class="rectangleB"></div>
+            <div></div>
+            <img src="./img/Userpic3.png" alt="" class="userPic" >
+            <div>
+                <a href="https://twitter.com"><img src="./img/TwitterW.png" alt="" class="firstImg"></a>
+            </div>
+            <p id="teslaText">TESLA</p>
+            <p id="isabella">Isabella Cook</p>
+        </div>
+
+    </div>
+    <script src="./animations.js"></script>
+</body>
+
+</html>
